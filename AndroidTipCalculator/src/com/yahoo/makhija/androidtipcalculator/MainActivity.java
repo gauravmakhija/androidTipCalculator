@@ -63,32 +63,23 @@ public class MainActivity extends Activity {
     	bt10.setOnClickListener(new View.OnClickListener() {
     		@Override
     		public void onClick(View v) {
-    			handle10PercentTip(v);
+    			handle10PercentTip();
     		}
     	});
     	bt15.setOnClickListener(new View.OnClickListener() {
     		@Override
     		public void onClick(View v) {
-    			handle15PercentTip(v);
+    			handle15PercentTip();
     		}
     	});
     	bt20.setOnClickListener(new View.OnClickListener() {
     		@Override
     		public void onClick(View v) {
-    			handle20PercentTip(v);
+    			handle20PercentTip();
     		}
     	});
     }
     
-	public void handle10PercentTip(View v) {
-		handle10PercentTip();
-	}
-    public void handle15PercentTip(View v) {
-    	handle15PercentTip();
-	}
-    public void handle20PercentTip(View v) {
-    	handle20PercentTip();
-	}
 	public void handle10PercentTip() {
 		Double baseAmount = fetchBaseAmount();
 		Double tip = Double.valueOf(decimal2Places.format(baseAmount*0.1));
@@ -152,3 +143,4 @@ public class MainActivity extends Activity {
 	}
     
 }
+
