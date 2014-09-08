@@ -3,6 +3,8 @@ androidTipCalculator
 
 A Tip Calculator utility app which allows a user to calculate the appropriate tip based on the total amount entered.
 
+Time spent: 5 hours spent in total.
+
 User Stories
 (Must Have) - DONE
 User is displayed the tip of specified percentage for specified entered amount.
@@ -21,3 +23,4 @@ User can select custom tip percentage if desired.
 User can select how many ways to split the tip.
 User can edit preset tip percentages and have them persist across launches.
 Experiment with trying input widgets to replace the buttons and/or textviews.
+![AndroidTipCalculator](androidTipCalculator.gif)
